@@ -1,13 +1,13 @@
 
-## Node JS JWT + Server
+### Node JS JWT + Server
 
 
-## Server Port 8080
+### Server Port 8080
 
-## Server base URL
+### Server base URL
 *http://localhost:8086/*
 
-## Installation 
+### Installation 
 Please update mongodb db url in ../db.js file
 'mongodb://root:root@localhost:27017/?authSource=admin'
 
@@ -20,7 +20,7 @@ Run below command to install
 *npm start*
 
 
-## API:
+### API:
 
 - */login*
 - */register*
