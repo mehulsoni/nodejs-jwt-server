@@ -108,7 +108,7 @@ router.post(
 );
 
 // RETURNS ALL THE USERS SIGNED MESSAGES IN THE DATABASE
-router.get('/signedMessages/:address', authenticateJWT, function (req, res) {
+router.get('/signed-messages/:address', authenticateJWT, function (req, res) {
 	SignedMessage.find({owner: req.params.address}, function (err, messages) {
 		if (err) {
 			return res.status(500).send("There was a problem finding the signed Messages.");
