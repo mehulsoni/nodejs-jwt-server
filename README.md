@@ -22,9 +22,9 @@ Run below command to install
 
 ## API:
 
-*/login*
-*/register*
-*/verify*
-*/wallets/validate/message*
-*/wallets//signed-messages/:address*
+- */login*
+- */register*
+- */verify*
+- */wallets/validate/message*
+- */wallets//signed-messages/:address*
 
